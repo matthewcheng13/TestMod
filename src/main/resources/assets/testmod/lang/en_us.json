@@ -1,0 +1,7 @@
+{
+  "item.testmod.zircon": "Zircon",
+
+  "block.testmod.zircon_block": "Zircon Block",
+  "block.testmod.zircon_ore": "Zircon Ore",
+  "block.testmod.deepslate_zircon_ore": "Deepslate Zircon Ore"
+}

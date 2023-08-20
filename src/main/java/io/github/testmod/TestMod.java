@@ -1,6 +1,8 @@
 package io.github.testmod;
 
 import com.mojang.logging.LogUtils;
+import io.github.testmod.block.ModBlocks;
+import io.github.testmod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
@@ -28,6 +30,9 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
+
+import static io.github.testmod.block.ModBlocks.*;
+import static io.github.testmod.item.ModItems.*;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(TestMod.MODID)
@@ -64,6 +69,9 @@ public class TestMod
     public TestMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -103,6 +111,15 @@ public class TestMod
     {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
             event.accept(EXAMPLE_BLOCK_ITEM);
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
+            event.accept(ZIRCON);
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS)
+            event.accept(ZIRCON_ORE);
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS)
+            event.accept(ZIRCON_BLOCK);
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS)
+            event.accept(DEEPSLATE_ZIRCON_ORE);
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
