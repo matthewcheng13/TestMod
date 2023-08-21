@@ -106,6 +106,7 @@ public class TestMod
         Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
     }
 
+
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
@@ -113,12 +114,13 @@ public class TestMod
             event.accept(EXAMPLE_BLOCK_ITEM);
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
             event.accept(ZIRCON);
-        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS)
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ZIRCON_ORE);
-        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS)
             event.accept(ZIRCON_BLOCK);
-        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS)
             event.accept(DEEPSLATE_ZIRCON_ORE);
+            event.accept(NETHERRACK_ZIRCON_ORE);
+            event.accept(ENDSTONE_ZIRCON_ORE);
+        }
 
     }
 
