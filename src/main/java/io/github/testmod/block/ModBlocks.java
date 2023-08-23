@@ -43,6 +43,21 @@ public class ModBlocks {
                     strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3,7)));
 
+    public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",
+            () -> new Block(BlockBehaviour.Properties.of().
+                    strength(6f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of().
+                    strength(6f).requiresCorrectToolForDrops(),
+                    UniformInt.of(3,7)));
+
+    public static final RegistryObject<Block> DEEPSLATE_SAPPHIRE_ORE = registerBlock("deepslate_sapphire_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of().
+                    strength(6f).requiresCorrectToolForDrops(),
+                    UniformInt.of(3,7)));
+
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

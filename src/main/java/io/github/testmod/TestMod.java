@@ -112,14 +112,19 @@ public class TestMod
     {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
             event.accept(EXAMPLE_BLOCK_ITEM);
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(RUBY);
+            event.accept(SAPPHIRE);
+        }
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(RUBY_ORE);
             event.accept(RUBY_BLOCK);
             event.accept(DEEPSLATE_RUBY_ORE);
             event.accept(NETHERRACK_RUBY_ORE);
             event.accept(ENDSTONE_RUBY_ORE);
+            event.accept(SAPPHIRE_ORE);
+            event.accept(SAPPHIRE_BLOCK);
+            event.accept(DEEPSLATE_SAPPHIRE_ORE);
         }
 
     }
