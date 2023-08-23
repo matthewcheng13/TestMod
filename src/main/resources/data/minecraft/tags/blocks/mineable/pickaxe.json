@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "testmod:zircon_block",
-    "testmod:zircon_ore",
-    "testmod:deepslate_zircon_ore",
-    "testmod:netherrack_zircon_ore",
-    "testmod:endstone_zircon_ore"
+    "testmod:ruby_block",
+    "testmod:ruby_ore",
+    "testmod:deepslate_ruby_ore",
+    "testmod:netherrack_ruby_ore",
+    "testmod:endstone_ruby_ore"
   ]
 }

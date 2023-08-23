@@ -1,7 +1,5 @@
 {
-  "replace": false,
   "values": [
-    "testmod:ruby_block",
     "testmod:ruby_ore",
     "testmod:deepslate_ruby_ore",
     "testmod:netherrack_ruby_ore",

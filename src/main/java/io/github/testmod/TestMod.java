@@ -113,13 +113,13 @@ public class TestMod
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
             event.accept(EXAMPLE_BLOCK_ITEM);
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
-            event.accept(ZIRCON);
+            event.accept(RUBY);
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-            event.accept(ZIRCON_ORE);
-            event.accept(ZIRCON_BLOCK);
-            event.accept(DEEPSLATE_ZIRCON_ORE);
-            event.accept(NETHERRACK_ZIRCON_ORE);
-            event.accept(ENDSTONE_ZIRCON_ORE);
+            event.accept(RUBY_ORE);
+            event.accept(RUBY_BLOCK);
+            event.accept(DEEPSLATE_RUBY_ORE);
+            event.accept(NETHERRACK_RUBY_ORE);
+            event.accept(ENDSTONE_RUBY_ORE);
         }
 
     }
