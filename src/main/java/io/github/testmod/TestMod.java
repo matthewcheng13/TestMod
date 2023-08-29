@@ -126,7 +126,9 @@ public class TestMod
             event.accept(SAPPHIRE_BLOCK);
             event.accept(DEEPSLATE_SAPPHIRE_ORE);
         }
-
+        if (event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(RUBY_STAFF);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
