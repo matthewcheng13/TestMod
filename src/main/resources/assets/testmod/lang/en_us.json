@@ -11,5 +11,10 @@
   "block.testmod.sapphire_ore": "Sapphire Ore",
   "block.testmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
 
-  "item.testmod.ruby_staff": "Ruby Staff"
+  "item.testmod.garnet": "Garnet",
+  "block.testmod.garnet_block": "Garnet Block",
+
+  "item.testmod.ruby_staff": "Ruby Staff",
+
+  "item.testmod.orange": "Orange"
 }

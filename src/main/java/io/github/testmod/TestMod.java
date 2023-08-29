@@ -115,6 +115,7 @@ public class TestMod
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(RUBY);
             event.accept(SAPPHIRE);
+            event.accept(GARNET);
         }
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(RUBY_ORE);
@@ -125,9 +126,13 @@ public class TestMod
             event.accept(SAPPHIRE_ORE);
             event.accept(SAPPHIRE_BLOCK);
             event.accept(DEEPSLATE_SAPPHIRE_ORE);
+            event.accept(GARNET_BLOCK);
         }
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(RUBY_STAFF);
+        }
+        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ORANGE);
         }
     }
 

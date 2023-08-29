@@ -18,8 +18,14 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> GARNET = ITEMS.register("garnet",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> RUBY_STAFF = ITEMS.register("ruby_staff",
             () -> new RubyStaffItem(new Item.Properties().durability(600)));
+
+    public static final RegistryObject<Item> ORANGE = ITEMS.register("orange",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

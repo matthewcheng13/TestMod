@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "testmod:garnet_block"
+    }
+  ],
+  "result": {
+    "item": "testmod:garnet",
+    "count": 9
+  }
+}
