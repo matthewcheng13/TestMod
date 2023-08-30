@@ -29,15 +29,15 @@ public class ModItems {
             () -> new RubyStaffItem(new Item.Properties().durability(600)));
 
     public static final RegistryObject<Item> GARNET_SWORD = ITEMS.register("garnet_sword",
-            () -> new SwordItem(ModToolTiers.GARNET, 4, 2, new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.GARNET, 3, -2.4f, new Item.Properties()));
     public static final RegistryObject<Item> GARNET_PICKAXE = ITEMS.register("garnet_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.GARNET, 1, 3, new Item.Properties()));
+            () -> new PickaxeItem(ModToolTiers.GARNET, 1, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> GARNET_AXE = ITEMS.register("garnet_axe",
-            () -> new AxeItem(ModToolTiers.GARNET, 6, 0, new Item.Properties()));
+            () -> new AxeItem(ModToolTiers.GARNET, 5, -3f, new Item.Properties()));
     public static final RegistryObject<Item> GARNET_SHOVEL = ITEMS.register("garnet_shovel",
-            () -> new ShovelItem(ModToolTiers.GARNET, 0, 4, new Item.Properties()));
+            () -> new ShovelItem(ModToolTiers.GARNET, 1, -3f, new Item.Properties()));
     public static final RegistryObject<Item> GARNET_HOE = ITEMS.register("garnet_hoe",
-            () -> new HoeItem(ModToolTiers.GARNET, 0, 4, new Item.Properties()));
+            () -> new HoeItem(ModToolTiers.GARNET, -5, 0, new Item.Properties()));
 
     public static final RegistryObject<Item> GARNET_HELMET = ITEMS.register("garnet_helmet",
             () -> new ModArmorItem(ModArmorMaterials.GARNET, ArmorItem.Type.HELMET, new Item.Properties()));

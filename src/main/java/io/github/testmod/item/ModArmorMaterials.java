@@ -10,10 +10,10 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    GARNET("garnet", 26, new int[]{5,7,5,4}, 25,
-            SoundEvents.ARMOR_EQUIP_DIAMOND, 1f, 0f, () -> Ingredient.of(ModItems.GARNET.get())),
-    GLOB_CRYSTAL("glob_crystal", 26, new int[]{5,7,5,4}, 25,
-            SoundEvents.ARMOR_EQUIP_GOLD, 1f, 0f, () -> Ingredient.of(ModItems.GLOB_CRYSTAL.get()));
+    GARNET("garnet", 26, new int[]{5,8,7,4}, 25,
+            SoundEvents.ARMOR_EQUIP_DIAMOND, 4f, 2f, () -> Ingredient.of(ModItems.GARNET.get())),
+    GLOB_CRYSTAL("glob_crystal", 26, new int[]{6,9,8,5}, 25,
+            SoundEvents.ARMOR_EQUIP_GOLD, 4f, 4f, () -> Ingredient.of(ModItems.GLOB_CRYSTAL.get()));
 
     private final String name;
     private final int durabilityMultiplier;
