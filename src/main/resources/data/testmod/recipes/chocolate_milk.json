@@ -6,7 +6,10 @@
       "item": "minecraft:milk_bucket"
     },
     {
-      "item": "minecraft:cocoa"
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:sugar"
     }
   ],
   "result": {
