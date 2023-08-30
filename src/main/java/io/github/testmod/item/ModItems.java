@@ -35,7 +35,7 @@ public class ModItems {
     public static final RegistryObject<Item> GARNET_AXE = ITEMS.register("garnet_axe",
             () -> new AxeItem(ModToolTiers.GARNET, 5, -3f, new Item.Properties()));
     public static final RegistryObject<Item> GARNET_SHOVEL = ITEMS.register("garnet_shovel",
-            () -> new ShovelItem(ModToolTiers.GARNET, 1, -3f, new Item.Properties()));
+            () -> new ShovelItem(ModToolTiers.GARNET, 1.5f, -3f, new Item.Properties()));
     public static final RegistryObject<Item> GARNET_HOE = ITEMS.register("garnet_hoe",
             () -> new HoeItem(ModToolTiers.GARNET, -5, 0, new Item.Properties()));
 
