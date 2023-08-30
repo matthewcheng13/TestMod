@@ -3,13 +3,13 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "testmod:ruby"
+      "item": "minecraft:milk_bucket"
     },
     {
-      "item": "testmod:sapphire"
+      "item": "minecraft:cocoa"
     }
   ],
   "result": {
-    "item": "testmod:garnet"
+    "item": "testmod:chocolate_milk"
   }
 }

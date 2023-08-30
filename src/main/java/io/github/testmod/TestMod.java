@@ -116,6 +116,7 @@ public class TestMod
             event.accept(RUBY);
             event.accept(SAPPHIRE);
             event.accept(GARNET);
+            event.accept(GLOB_CRYSTAL);
         }
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(RUBY_ORE);
@@ -130,9 +131,23 @@ public class TestMod
         }
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(RUBY_STAFF);
+            event.accept(GARNET_HELMET);
+            event.accept(GARNET_CHESTPLATE);
+            event.accept(GARNET_LEGGINGS);
+            event.accept(GARNET_BOOTS);
+        }
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(GARNET_SWORD);
+            event.accept(GARNET_PICKAXE);
+            event.accept(GARNET_AXE);
+            event.accept(GARNET_SHOVEL);
+            event.accept(GARNET_HOE);
         }
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ORANGE);
+            event.accept(CHERRY);
+            event.accept(CHOCOLATE_MILK);
+            event.accept(FRUIT_PUNCH);
         }
     }
 

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "testmod:orange"
+    },
+    {
+      "item": "testmod:cherry"
+    },
+    {
+      "minecraft": "sugar"
+    },
+    {
+      "minecraft": "water_bucket"
+    }
+  ],
+  "result": {
+    "item": "testmod:fruit_punch"
+  }
+}

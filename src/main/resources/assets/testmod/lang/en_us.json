@@ -14,7 +14,22 @@
   "item.testmod.garnet": "Garnet",
   "block.testmod.garnet_block": "Garnet Block",
 
+  "item.testmod.glob_crystal": "Glob Crystal",
+
   "item.testmod.ruby_staff": "Ruby Staff",
 
-  "item.testmod.orange": "Orange"
+  "item.testmod.garnet_sword": "Garnet Sword",
+  "item.testmod.garnet_pickaxe": "Garnet Pickaxe",
+  "item.testmod.garnet_axe": "Garnet Axe",
+  "item.testmod.garnet_shovel": "Garnet Shovel",
+  "item.testmod.garnet_hoe": "Garnet Hoe",
+  "item.testmod.garnet_helmet": "Garnet Helmet",
+  "item.testmod.garnet_chestplate": "Garnet Chestplate",
+  "item.testmod.garnet_leggings": "Garnet Leggings",
+  "item.testmod.garnet_boots": "Garnet Boots",
+
+  "item.testmod.orange": "Orange",
+  "item.testmod.cherry": "Cherry",
+  "item.testmod.chocolate_milk": "Chocolate Milk",
+  "item.testmod.fruit_punch": "Fruit Punch"
 }
