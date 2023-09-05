@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "testmod:sapphire"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "XX ",
+    "X# ",
+    "  X"
+  ],
+  "result": {
+    "item": "testmod:sapphire_staff"
+  },
+  "show_notification": true
+}

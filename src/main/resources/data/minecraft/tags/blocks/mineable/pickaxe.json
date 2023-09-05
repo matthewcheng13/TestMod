@@ -8,6 +8,7 @@
     "testmod:endstone_ruby_ore",
     "testmod:sapphire_block",
     "testmod:sapphire_ore",
-    "testmod:deepslate_sapphire_ore"
+    "testmod:deepslate_sapphire_ore",
+    "testmod:prismasteel_ore"
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "testmod:garnet"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " XX",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "testmod:garnet_hoe"
+  },
+  "show_notification": true
+}

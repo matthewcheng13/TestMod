@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "X": {
+      "item": "testmod:glob_crystal"
+    },
+    "#": {
+      "item": "testmod:prismasteel"
+    }
+  },
+  "result": {
+    "item": "testmod:prismium"
+  }
+}

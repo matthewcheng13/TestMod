@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 15,
+  "group": "prismasteel",
+  "ingredient": {
+    "item": "testmod:prismasteel_ore"
+  },
+  "result": "testmod:prismasteel"
+}

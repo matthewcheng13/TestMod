@@ -119,6 +119,8 @@ public class TestMod
             event.accept(GARNET);
             event.accept(GLOB_CRYSTAL);
             event.accept(GLOB_SHARD);
+            event.accept(PRISMASTEEL);
+            event.accept(PRISMIUM);
         }
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(RUBY_ORE);
@@ -130,20 +132,31 @@ public class TestMod
             event.accept(SAPPHIRE_BLOCK);
             event.accept(DEEPSLATE_SAPPHIRE_ORE);
             event.accept(GARNET_BLOCK);
+            event.accept(PRISMASTEEL_ORE);
         }
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(GARNET_SWORD);
+            event.accept(PRISMIUM_SWORD);
             event.accept(RUBY_STAFF);
+            event.accept(SAPPHIRE_STAFF);
             event.accept(GARNET_HELMET);
             event.accept(GARNET_CHESTPLATE);
             event.accept(GARNET_LEGGINGS);
             event.accept(GARNET_BOOTS);
+            event.accept(PRISMIUM_HELMET);
+            event.accept(PRISMIUM_CHESTPLATE);
+            event.accept(PRISMIUM_LEGGINGS);
+            event.accept(PRISMIUM_BOOTS);
         }
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-            event.accept(GARNET_SWORD);
             event.accept(GARNET_PICKAXE);
             event.accept(GARNET_AXE);
             event.accept(GARNET_SHOVEL);
             event.accept(GARNET_HOE);
+            event.accept(PRISMIUM_PICKAXE);
+            event.accept(PRISMIUM_AXE);
+            event.accept(PRISMIUM_SHOVEL);
+            event.accept(PRISMIUM_HOE);
         }
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ORANGE);

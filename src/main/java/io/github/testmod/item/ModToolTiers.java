@@ -18,9 +18,9 @@ public class ModToolTiers {
             new ResourceLocation(TestMod.MODID, "garnet"), List.of(Tiers.NETHERITE), List.of()
     );
 
-    public static final Tier GLOB_CRYSTAL = TierSortingRegistry.registerTier(
-            new ForgeTier(6, 3200, 10f, 5f, 25,
-                    ModTags.Blocks.NEEDS_GLOB_CRYSTAL_TOOL, () -> Ingredient.of(ModItems.GLOB_CRYSTAL.get())),
-            new ResourceLocation(TestMod.MODID, "glob_crystal"), List.of(ModToolTiers.GARNET), List.of()
+    public static final Tier PRISMIUM = TierSortingRegistry.registerTier(
+            new ForgeTier(6, 3200, 11f, 6f, 25,
+                    ModTags.Blocks.NEEDS_PRISMIUM_TOOL, () -> Ingredient.of(ModItems.PRISMIUM.get())),
+            new ResourceLocation(TestMod.MODID, "prismium"), List.of(ModToolTiers.GARNET), List.of()
     );
 }

@@ -61,6 +61,11 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().
                     strength(6f).requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> PRISMASTEEL_ORE = registerBlock("prismasteel_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of().
+                    strength(7f).requiresCorrectToolForDrops(),
+                    UniformInt.of(8,15)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

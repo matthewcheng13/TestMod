@@ -16,8 +16,12 @@
 
   "item.testmod.glob_shard": "Glob Shard",
   "item.testmod.glob_crystal": "Glob Crystal",
+  "item.testmod.prismasteel": "Prismasteel",
+  "item.testmod.prismasteel_ore": "Prismasteel Ore",
+  "item.testmod.prismium": "Prismium",
 
   "item.testmod.ruby_staff": "Ruby Staff",
+  "item.testmod.sapphire_staff": "Sapphire Staff",
 
   "item.testmod.garnet_sword": "Garnet Sword",
   "item.testmod.garnet_pickaxe": "Garnet Pickaxe",
@@ -28,6 +32,16 @@
   "item.testmod.garnet_chestplate": "Garnet Chestplate",
   "item.testmod.garnet_leggings": "Garnet Leggings",
   "item.testmod.garnet_boots": "Garnet Boots",
+
+  "item.testmod.prismium_sword": "Prismium Sword",
+  "item.testmod.prismium_pickaxe": "Prismium Pickaxe",
+  "item.testmod.prismium_axe": "Prismium Axe",
+  "item.testmod.prismium_shovel": "Prismium Shovel",
+  "item.testmod.prismium_hoe": "Prismium Hoe",
+  "item.testmod.prismium_helmet": "Prismium Helmet",
+  "item.testmod.prismium_chestplate": "Prismium Chestplate",
+  "item.testmod.prismium_leggings": "Prismium Leggings",
+  "item.testmod.prismium_boots": "Prismium Boots",
 
   "item.testmod.orange": "Orange",
   "item.testmod.cherry": "Cherry",

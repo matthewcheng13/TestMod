@@ -14,11 +14,11 @@ import java.util.Map;
 public class ModArmorItem extends ArmorItem {
     public static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>())
-                    .put(ModArmorMaterials.GARNET, new MobEffectInstance(MobEffects.REGENERATION, 40, 1,
+                    .put(ModArmorMaterials.GARNET, new MobEffectInstance(MobEffects.REGENERATION, 40, 0,
                             false, false, true))
-                    .put(ModArmorMaterials.GLOB_CRYSTAL, new MobEffectInstance(MobEffects.NIGHT_VISION, 40, 1,
+                    .put(ModArmorMaterials.PRISMIUM, new MobEffectInstance(MobEffects.NIGHT_VISION, 40, 0,
                             false, false, true))
-                    .put(ArmorMaterials.NETHERITE, new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 1,
+                    .put(ArmorMaterials.NETHERITE, new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,
                             false, false, true)).build();
 
     public ModArmorItem(ArmorMaterial p_40386_, Type p_266831_, Properties p_40388_) {

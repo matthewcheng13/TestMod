@@ -10,10 +10,10 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    GARNET("garnet", 26, new int[]{5,8,7,4}, 25,
+    GARNET("garnet", 45, new int[]{5,8,7,4}, 25,
             SoundEvents.ARMOR_EQUIP_DIAMOND, 4f, .2f, () -> Ingredient.of(ModItems.GARNET.get())),
-    GLOB_CRYSTAL("glob_crystal", 26, new int[]{6,9,8,5}, 25,
-            SoundEvents.ARMOR_EQUIP_GOLD, 4f, .4f, () -> Ingredient.of(ModItems.GLOB_CRYSTAL.get()));
+    PRISMIUM("prismium", 60, new int[]{6,9,8,5}, 25,
+            SoundEvents.ARMOR_EQUIP_GOLD, 4f, .4f, () -> Ingredient.of(ModItems.PRISMIUM.get()));
 
     private final String name;
     private final int durabilityMultiplier;
@@ -24,7 +24,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     private final float knockboackResistance;
     private final Supplier<Ingredient> repairIngredient;
 
-    public static final int[] BASE_DURABILITY = {11, 16, 16, 13};
+    public static final int[] BASE_DURABILITY = {11, 16, 15, 13};
 
     ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantmentValue, SoundEvent equipSound, float toughness, float knockboackResistance, Supplier<Ingredient> repairIngredient) {
         this.name = name;
