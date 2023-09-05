@@ -28,6 +28,8 @@ public class ModItems {
     public static final RegistryObject<Item> GLOB_CRYSTAL = ITEMS.register("glob_crystal",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> RAW_PRISMASTEEL = ITEMS.register("raw_prismasteel",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> PRISMASTEEL = ITEMS.register("prismasteel",
             () -> new Item(new Item.Properties()));
 

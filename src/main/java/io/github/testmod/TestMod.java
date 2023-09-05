@@ -119,6 +119,7 @@ public class TestMod
             event.accept(GARNET);
             event.accept(GLOB_CRYSTAL);
             event.accept(GLOB_SHARD);
+            event.accept(RAW_PRISMASTEEL);
             event.accept(PRISMASTEEL);
             event.accept(PRISMIUM);
         }

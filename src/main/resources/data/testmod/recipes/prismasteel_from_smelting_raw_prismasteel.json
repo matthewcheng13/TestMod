@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 15,
+  "group": "prismasteel",
+  "ingredient": {
+    "item": "testmod:raw_prismasteel"
+  },
+  "result": "testmod:prismasteel"
+}

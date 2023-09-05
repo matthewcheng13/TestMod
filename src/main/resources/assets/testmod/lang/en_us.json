@@ -17,7 +17,8 @@
   "item.testmod.glob_shard": "Glob Shard",
   "item.testmod.glob_crystal": "Glob Crystal",
   "item.testmod.prismasteel": "Prismasteel",
-  "item.testmod.prismasteel_ore": "Prismasteel Ore",
+  "item.testmod.raw_prismasteel": "Raw Prismasteel",
+  "block.testmod.prismasteel_ore": "Prismasteel Ore",
   "item.testmod.prismium": "Prismium",
 
   "item.testmod.ruby_staff": "Ruby Staff",
