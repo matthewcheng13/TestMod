@@ -22,6 +22,8 @@ public class ModItems {
     public static final RegistryObject<Item> GARNET = ITEMS.register("garnet",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> GLOB_SHARD = ITEMS.register("glob_crystal_shard",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> GLOB_CRYSTAL = ITEMS.register("glob_crystal",
             () -> new Item(new Item.Properties()));
 

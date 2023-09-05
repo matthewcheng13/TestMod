@@ -112,11 +112,13 @@ public class TestMod
     {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
             event.accept(EXAMPLE_BLOCK_ITEM);
+
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(RUBY);
             event.accept(SAPPHIRE);
             event.accept(GARNET);
             event.accept(GLOB_CRYSTAL);
+            event.accept(GLOB_SHARD);
         }
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(RUBY_ORE);
