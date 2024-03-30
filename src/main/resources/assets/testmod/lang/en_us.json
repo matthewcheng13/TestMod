@@ -47,5 +47,8 @@
   "item.testmod.orange": "Orange",
   "item.testmod.cherry": "Cherry",
   "item.testmod.chocolate_milk": "Chocolate Milk",
-  "item.testmod.fruit_punch": "Fruit Punch"
+  "item.testmod.fruit_punch": "Fruit Punch",
+
+  "entity.testmod.glob_entity": "Glob",
+  "item.testmod.glob_spawn_egg": "Glob Spawn Egg"
 }

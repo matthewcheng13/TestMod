@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "minecraft:end_highlands",
+  "spawners": {
+    "type": "testmod:glob",
+    "weight": 75,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

@@ -2,6 +2,7 @@ package io.github.testmod;
 
 import com.mojang.logging.LogUtils;
 import io.github.testmod.block.ModBlocks;
+import io.github.testmod.entity.ModEntities;
 import io.github.testmod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -72,6 +73,7 @@ public class TestMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -164,6 +166,9 @@ public class TestMod
             event.accept(CHERRY);
             event.accept(CHOCOLATE_MILK);
             event.accept(FRUIT_PUNCH);
+        }
+        if (event.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+            event.accept(GLOB_SPAWN_EGG);
         }
     }
 

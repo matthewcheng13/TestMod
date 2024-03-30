@@ -1,10 +1,12 @@
 package io.github.testmod.item;
 
 import io.github.testmod.TestMod;
+import io.github.testmod.entity.ModEntities;
 import io.github.testmod.item.custom.ModArmorItem;
 import io.github.testmod.item.custom.RubyStaffItem;
 import io.github.testmod.item.custom.SapphireStaffItem;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -89,6 +91,9 @@ public class ModItems {
             () -> new MilkBucketItem(new Item.Properties().food(ModFoods.CHOCOLATE_MILK).stacksTo(1)));
     public static final RegistryObject<Item> FRUIT_PUNCH = ITEMS.register("fruit_punch",
             () -> new MilkBucketItem(new Item.Properties().food(ModFoods.FRUIT_PUNCH).stacksTo(1)));
+
+    public static final RegistryObject<ForgeSpawnEggItem> GLOB_SPAWN_EGG = ITEMS.register("glob_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.GLOB, 0x5300ca, 0x27008f, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
